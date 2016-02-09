@@ -1,0 +1,8 @@
+<?php
+
+$config['db']['host'] = "localhost";
+$config['db']['driver'] = "mysql";
+$config['db']['user'] = "yourwhatevercon";
+$config['db']['pass'] = "dog123";
+$config['db']['database'] = "yourwhatevercon";
+

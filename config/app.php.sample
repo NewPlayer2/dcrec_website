@@ -1,0 +1,13 @@
+<?php
+
+$config['title'] = "What ever";
+$config['description'] = "Lorem ipsum dolor sit amet.";
+$config['baseurl'] = "http://yourwhatevercon.tld/";
+$config['appurl'] = "http://yourwhatevercon.tld/index.php";
+$config['default_controller'] = "gamelist";
+$config['segment_filter_pattern'] = "/^[\w\d-\.]+$/i";
+
+// these will be passed to preg_replace (key, value) when initializing an instance of Game
+$config['title_replacements'] = array(
+    "/^My Too Long to Show Server Provider Name here[^:]*:\s*/" => "MTLSSPN: "
+);
