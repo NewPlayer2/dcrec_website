@@ -133,6 +133,10 @@ class Game {
     public function get_dcrec () {
         return $this->dcrec_filename;
     }
+    
+    public function getId () {
+        return (int) $this->id;
+    }
 
     private function getPlayers () {
         $sql = "select * from player where game = :g order by score desc";
