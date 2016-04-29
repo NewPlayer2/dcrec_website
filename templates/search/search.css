@@ -2,9 +2,11 @@
 span.kw { background-color: #eee; font-size: 110%;}
 
 .player-condition .connective-col { display: block; }
-.player-condition.original .connective-col { display: none; }
 
 .player-condition.original .remove-condition { display: none; }
+.player-name .original .remove-alias { display: none; }
+.player-name .add-alias { display: none; }
+.player-name .original .add-alias { display: inline-block; }
 
 .btn-group .btn {
     border-radius: 0;
